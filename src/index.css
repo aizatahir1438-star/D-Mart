@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, "DM Sans", sans-serif;
+  --font-display: Georgia, ui-serif, serif;
+  
+  --color-primary: #1B4332;
+  --color-primary-light: #2D6A4F;
+  --color-primary-dark: #081C15;
+  --color-accent: #D4A017;
+  --color-accent-hover: #E5B228;
+  --color-background: #F8F9FA;
+  
+  --color-text-dark: #2D3436;
+  --color-text-light: #636E72;
+  --color-border-soft: rgba(0,0,0,0.08);
+
+  --shadow-custom: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
